@@ -1,1 +1,4 @@
+First of all, call to action needs to be done. There's no button functionality (I assumed you hadn't gotten there yet.)
+I changed the 2 worker classes to the ones we will be working with. So there will be errors cause obviously the object names are not the same so you need to go through and change them.
+I added my client side class so you can see how I did the login function.
 
