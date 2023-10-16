@@ -18,13 +18,14 @@ public class User implements Serializable
         this.Function = function;
     }
     
-    public User(int ID, String pass, String name, String surname, boolean isAdmin)
+    public User(int ID, String pass, String name, String surname, boolean isAdmin, String function)
     {
         this.ID = ID;
         this.Password = pass;
         this.fstName = name;
         this.lstName = surname;
         this.isAdmin = isAdmin;
+        this.Function = function;
     }
     
     public String getUserFName()
