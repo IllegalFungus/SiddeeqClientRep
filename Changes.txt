@@ -1,4 +1,7 @@
 First of all, call to action needs to be done. There's no button functionality (I assumed you hadn't gotten there yet.)
-I changed the 2 worker classes to the ones we will be working with. So there will be errors cause obviously the object names are not the same so you need to go through and change them.
+I changed the 2 worker classes to the ones we will be working with. So there will be errors cause obviously the object names are not the same so you need to go through and change them. Also change it so that whenever you use an object, i.e. users you have the required user constructor (no email or phone numbers required. - just look at the user course and you should be fine.)
 I added my client side class so you can see how I did the login function.
-
+You need a search function for both user and course, send the userID or courseID through to server, and server will check db based on that.
+Need a function to display all students on admin side.
+Need a function to delete a course and student. Works the same as the search function cause the deleting will happen on server side so its basically the exact same method.
+IMPORTANT: I made it so that in the user constructor, it takes ID, Password, and a thing called "function" that is the way i figured out how to differentiate between functions such as login and sign up etc. So when constructing a method for the function it will just be a string like "login" or "addcourse" just so that server side i know what to do.
