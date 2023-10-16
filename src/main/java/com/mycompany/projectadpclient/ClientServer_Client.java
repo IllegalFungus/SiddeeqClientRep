@@ -200,8 +200,8 @@ public class ClientServer_Client extends JFrame implements ActionListener
         }    
     }
     
-    public static void main(String[] args) {
-        ClientServer_Client client = new ClientServer_Client();
-    }
+//    public static void main(String[] args) {
+//        ClientServer_Client client = new ClientServer_Client();
+//    }
     
 }
